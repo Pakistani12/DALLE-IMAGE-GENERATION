@@ -50,3 +50,11 @@ print(response.data[0].url)
 - **Model**: The script uses the DALL-E 3 model to generate images based on a given text prompt.
 - **Prompt**: The text prompt "whale fish" is provided to generate an image.
 - **Output**: The generated image is returned as a URL.
+## **Example Output**
+For the prompt "whale fish", the script might generate a URL like:
+```sh
+https://openai.com/some_generated_image_url
+```
+You can copy and paste the URL into your browser to view the generated image.
+## **Acknowledgements**
+- [OpenAI](https://openai.com) for the DALL-E model
