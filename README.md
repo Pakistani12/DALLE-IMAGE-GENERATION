@@ -6,3 +6,13 @@ This project demonstrates how to generate an image using OpenAI's DALL-E model t
 - Uses DALL-E 3 model to produce high-quality images.
 - Output includes a URL for the generated image.
 
+## **Requirements**
+Make sure you have the following installed:
+
+- Python 3.7 or higher
+- OpenAI Python library
+## **Installation**
+1. Install the OpenAI Python package:
+```sh
+pip install openai
+```
