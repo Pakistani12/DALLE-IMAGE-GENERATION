@@ -22,3 +22,24 @@ pip install openai
 1. Obtain your OpenAI API key from [OpenAI](https://openai.com).
 
 2. Set up your API key in the script:
+```sh
+from openai import OpenAI
+client = OpenAI()
+```
+## **Usage**
+1. Run the script to generate an image:
+```sh
+from openai import OpenAI
+
+client = OpenAI()
+
+response = client.images.generate(
+    model="dall-e-3",
+    prompt="whale fish",
+    size="1024x1024",
+    quality="standard",
+    n=1,
+)
+
+print(response.data[0].url)
+```
