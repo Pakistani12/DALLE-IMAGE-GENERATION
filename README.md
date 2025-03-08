@@ -44,8 +44,9 @@ response = client.images.generate(
 print(response.data[0].url)
 ```
 2. The script will output a URL for the generated image. You can open the URL in your browser to view the image.
+
 ## **How It Works**
 
-    - **Model**: The script uses the DALL-E 3 model to generate images based on a given text prompt.
-    - **Prompt**: The text prompt "whale fish" is provided to generate an image.
-    - **Output**: The generated image is returned as a URL.
+- **Model**: The script uses the DALL-E 3 model to generate images based on a given text prompt.
+- **Prompt**: The text prompt "whale fish" is provided to generate an image.
+- **Output**: The generated image is returned as a URL.
